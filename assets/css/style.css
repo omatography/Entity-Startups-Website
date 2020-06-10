@@ -1,0 +1,388 @@
+
+/* custom css haha  */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(21, 21, 22);
+    
+}
+
+/* navbar */
+.bg-color{
+    background-color: black;
+}
+
+.bg-color-transparent{
+    background:rgba(0,0,0, 0.15);
+}
+.nav-link{
+    color: white;
+    font-size:15px;
+}
+.nav-link:hover{
+    color: white;
+}
+
+.btn:hover{
+    background-color: #f15a0f;
+}
+.btn{
+    border-radius:30px;
+    margin-left:2px;
+    margin-right:2px;
+    padding:12px;
+    transition: 0.5s;
+}
+
+/* modal haha */
+.modal-bg{
+    background:rgb(21, 21, 22);
+    border-radius: 30px;
+ 
+}
+.modal-header{
+    border-bottom: 0;
+}
+.modal-close{
+    font-size:25px;
+    color: white;
+    margin-right: 10px;
+}
+.modal-desc{
+    color:white;
+    font-size: 17px;
+}
+.modal-btn{
+    color:white;
+    font-size: 20px;
+    border: 2px solid #f15a0f;
+    margin:15px;
+    width:150px;
+}
+
+.modal-btn:hover{
+    color: white;
+}
+/* home  */
+.home{
+    padding-right: 0px;
+    padding-left: 0px;
+    background: url(../images/homebg1.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height:650px;
+    animation: carslide 24s infinite linear;
+
+}
+.home-container{
+    height: 100vh;
+    min-height:650px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+.home-header{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-weight: bolder;
+    font-size:55px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+.home-desc{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 20px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+
+
+}
+.home-btn{
+    border:1px solid white;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: white;
+    font-size:17px;
+    transition: 0.5s;
+    padding:8px;
+    font-family: 'Montserrat', sans-serif;
+    width:200px;
+
+}
+.home-btn:hover{
+    border:1px solid #f15a0f;
+    color:white;
+}
+
+/* for animate.css  */
+#mynavbar{
+    opacity:0;
+}
+
+.home-container{
+    opacity: 0;
+}
+.about-part{
+    opacity: 0;
+}
+
+.services-part{
+    opacity: 0;
+}
+
+.contact-part{
+    opacity: 0;
+}
+
+/* about  */
+.about-bg{
+    background: url("../images/about-bg.png") center center no-repeat;
+    background-size: cover;
+}
+
+.about-heading,.team-heading{
+    color:white;
+    text-align: center;
+}
+.about-logo{
+    width:170px;
+    
+}
+.bg-black{
+    background: black;
+}
+.bg-orange{
+    background-color: #fda026;
+}
+.about-description{
+    font-size:19px;
+    color:white;
+    margin-top:20px;
+    margin:10px;
+}
+.post-card{
+    border-radius: 0;
+    margin:0px;
+    margin-top: 25px;
+   
+}
+.card-title{
+    color: white;
+    margin:10px;
+}
+.post{
+    margin-bottom: 5px;
+}
+.bg-card{
+    background-color: #39393B;
+}
+
+.bg-card:hover{
+    background-color: #f15a0f;
+}
+/* parallax 1 and 2 */
+.parallax-1{
+    min-height:300px;
+    background:url('../images/parallax1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.parallax-2{
+    min-height:300px;
+    background:url('../images/parallax2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.parallax-header{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-weight: bolder;
+    font-size:30px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+
+    
+}
+
+/* services  */
+.services-bg{
+    background: url("../images/services-bg.png") center center no-repeat;
+    background-size: cover;
+}
+.services-card{
+    margin:25px;
+    padding: 0;
+    border-bottom: 0;
+    background-color: #39393B;
+    border-radius: 20px;
+    
+}
+.services-overlay{
+    transition: 0.45s ease-in-out;
+    border-radius: 20px;
+}
+
+.services-title{
+    color:white;
+}
+.services-desc{
+    color:white;
+    font-size:16px;
+    display: none;
+    visibility: hidden;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.services-overlay:hover{
+    background-color: #f15a0f;
+}
+.services-overlay:hover .services-desc{
+    display: block;
+    visibility: visible;
+    text-align: center;
+}
+
+/* contact  */
+.contact-bg{
+    background: url("../images/contact-bg.png") center center no-repeat;
+    background-size: cover;
+}
+
+/* footer */
+.bg-grey{
+    background-color: #39393B;
+}
+
+.ft-icon{
+    font-size: 60px;
+    color: white;
+}
+.ft-desc{
+    font-family: 'Montserrat',cursive;
+    font-size: 13px;
+    color: white;
+    padding:8px;
+}
+.ft-social{
+    color: white;
+    padding:10px;
+    font-size: 27px;
+}
+
+.ft-social:hover{
+    background-color: #39393B;
+    color: #fda026;
+    border-radius: 30px;
+}
+
+
+
+
+
+/* scroll animation */
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+section::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 80%;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+}
+
+.demo a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+  .demo a:hover {
+    opacity: .5;
+  }
+  #section10 a {
+    padding-top: 40px;
+  }
+  #section10 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 35px;
+    height: 60px;
+    margin-left: -15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+    transition: 0.2s;
+  }
+  #section10 a span:hover{
+    border: 2px solid #f15a0f;
+
+  }
+  #section10 a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sdb10 2s infinite;
+    animation: sdb10 2s infinite;
+    box-sizing: border-box;
+  }
+  @-webkit-keyframes sdb10 {
+    0% {
+      -webkit-transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      -webkit-transform: translate(0, 20px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes sdb10 {
+    0% {
+      transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      transform: translate(0, 20px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }  
+
+  /* finished haha */
